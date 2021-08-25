@@ -1,0 +1,340 @@
+/* CABEÇALHO */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-top: 45px;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+}
+.logo img {
+    width: 120px;
+    height: 120px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    margin-left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #01698c;
+    font-weight: 600;
+    font-size: 20px;
+}
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* FOTO BANNER 1 */
+
+#banner1 {
+    background-image: url('../images/primefoto.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+/* FOTO BANNER 2 */
+
+#banner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 525px;  
+}
+.coluna {
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.foto {
+    width: 232px;
+}
+.foto img {
+    width: 232px;
+    height: 232px;
+}
+.fotoinfo {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.overflow {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 232px;
+    height: 232px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.overflow p {
+    visibility: hidden;
+    color: #ffffff;
+    font-weight: 400;
+    background-color: #01698c;
+    padding: 10px;
+    border-radius: 20px;
+}
+.overflow:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+.overflow:hover p {
+    visibility: visible;
+}
+
+/* FOTO BANNER 3 */
+
+#banner3 {
+    background-image: url('../images/gtecido1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 465px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icon3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulobanner3 {
+    height: 80px;
+    width: 1160px;
+    border-bottom: 2px solid #01698c;
+    margin-bottom: 10px;
+}
+.titulobanner3 h2 {
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.modabanner3 {
+    height: 345px;
+    width: 1160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.modaarea3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.modaarea3 img {
+    background-color: #01698c;
+    width: 130px;
+    height: 130px;
+    padding: 25px;
+    border-radius: 80px;
+}
+.modaarea3 h3 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+}
+.modaarea3 h4 {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+/* FOTO BANNER 4 */
+
+.area4 {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: 100%;
+    background-color: #141414;
+}
+.areadecima {
+    background-color:#141414;
+    height: 15px;
+}
+.areadebaixo {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    height: 150px;
+    margin-bottom: 30px;
+    background-color: #01698c;
+}
+.areadebaixo img {
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+.areadebaixo h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+/* FOTO BANNER 5 */
+
+#banner5 {
+    display: flex;
+    background-color: #141414;
+    height: 220px;
+}
+.logo_rodape {
+    
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.logo_rodape img {
+    width: 200px;
+    height: 200px;
+}
+.contato_rodape,
+.func_rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    
+}
+.titulo_contato_rodape,
+.titulo_func_rodape {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+    border-bottom: 2px solid #01698c;
+    width: 200px;
+}
+.titulo_contato_rodape h3,
+.titulo_func_rodape h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+}
+.desc_contato_rodape,
+.semana_rodape {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    flex: 2;
+    
+}
+.locali_desc_contato_rodape ,
+.whats_desc_contato_rodape ,
+.email_desc_contato_rodape  {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.locali_desc_contato_rodape img,
+.whats_desc_contato_rodape img,
+.email_desc_contato_rodape img {
+    margin-right: 5px;
+}
+.locali_desc_contato_rodape a,
+.whats_desc_contato_rodape a,
+.email_desc_contato_rodape a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.locali_desc_contato_rodape a:hover,
+.whats_desc_contato_rodape a:hover,
+.email_desc_contato_rodape a:hover {
+    color: blue;
+}
+.semana_rodape li,
+.sab_rodape li {
+    color: #ffffff;
+}
+
+
+/* RODAPE */
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #2c2c2c;
+}
+.footer_copy {
+    color: #5c5c5c;
+    font-size: 12px;
+    line-height: 40px;
+}
+.footer_copy a {
+    text-decoration: none;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 1024px) {
+    .logo img {
+        margin-left: 15px;
+    }
+    .menu {
+        margin-right: 15px;
+    }
+    .foto {
+        width: 180;
+        height: 180;
+        display: flex;
+        justify-content: center;
+    }    
+}
+

@@ -1,0 +1,366 @@
+/* CABEÇALHO */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-top: 45px;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: rgba(1, 107, 142, 0.3);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+}
+.logo img {
+    width: 120px;
+    height: 120px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    margin-left: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+}
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* section preta em cima da imagem */
+
+#section_preta_cima{
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+}
+
+
+/* FOTO BANNER 1 */
+
+#banner1 {
+    background-image: url('../images/physiotherapy-5624920_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+
+/* BANNER 2 */
+
+#banner2 {
+    width: 100%;
+    height: 520px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+.container_banner2 {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+}
+.titulo_banner2 {
+    width: 595px;
+    height: 145px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid #01698c;
+}
+.titulo_banner2 h2 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+}
+.desc_banner2 h6 {
+    color: #cccccc;
+    line-height: 25px;
+    font-size: 16px;
+}
+.desc_banner2 {
+    margin-top: 40px;
+}
+
+/* BANNER 3 */
+
+#banner3 {
+    width: 100%;
+    height: 212px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/gtecido1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.container_banner3 {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+}
+.titulo_banner3 {
+    width: 595px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid #01698c;
+}
+.titulo_banner3 h2 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+}
+.desc_banner3 h6 {
+    color: #cccccc;
+    line-height: 25px;
+    font-size: 16px;
+    
+}
+/* ESPAÇAMENTO PRETO */
+
+#espacamento1 {
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+}
+
+/* BANNER 4 */
+
+#banner4 {
+    width: 100%;
+    height: 212px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/gtecido1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.container_banner4 {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+}
+.titulo_banner4 {
+    width: 595px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid #01698c;
+}
+.titulo_banner4 h2 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+}
+.desc_banner4 h6 {
+    color: #cccccc;
+    line-height: 25px;
+    font-size: 16px;
+}
+/* ESPAÇAMENTO PRETO */
+
+#espacamento2 {
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+}
+
+/* BANNER 5 */
+
+#banner5 {
+    width: 100%;
+    height: 212px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/gtecido1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.container_banner5 {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+}
+.titulo_banner5 {
+    width: 595px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid #01698c;
+}
+.titulo_banner5 h2 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 30px;
+}
+.desc_banner5 h6 {
+    color: #cccccc;
+    line-height: 25px;
+    font-size: 16px;
+}
+.area4 {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: 100%;
+    background-color: #141414;
+}
+.areadecima {
+    background-color:#141414;
+    height: 15px;
+}
+.areadebaixo {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    height: 150px;
+    margin-bottom: 30px;
+    background-color: #01698c;
+}
+.areadebaixo img {
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+.areadebaixo h4 {
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+/* FOTO BANNER 6 (rodapé) */
+
+#banner6_rodape {
+    display: flex;
+    background-color: #141414;
+    height: 220px;
+}
+.logo6_rodape {
+    
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.logo6_rodape img {
+    width: 200px;
+    height: 200px;
+}
+.contato6_rodape,
+.func6_rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    
+}
+.titulo6_contato_rodape,
+.titulo6_func_rodape {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+    border-bottom: 2px solid #01698c;
+    width: 200px;
+}
+.titulo6_contato_rodape h3,
+.titulo6_func_rodape h3 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+}
+.desc6_contato_rodape,
+.semana6_rodape {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    flex: 2;
+    
+}
+.locali6_desc_contato_rodape ,
+.whats6_desc_contato_rodape ,
+.email6_desc_contato_rodape  {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.locali6_desc_contato_rodape img,
+.whats6_desc_contato_rodape img,
+.email6_desc_contato_rodape img {
+    margin-right: 5px;
+}
+.locali6_desc_contato_rodape a,
+.whats6_desc_contato_rodape a,
+.email6_desc_contato_rodape a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.locali6_desc_contato_rodape a:hover,
+.whats6_desc_contato_rodape a:hover,
+.email6_desc_contato_rodape a:hover {
+    color: blue;
+}
+.semana6_rodape li,
+.sab6_rodape li {
+    color: #ffffff;
+}
+
+
+/* RODAPE */
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #2c2c2c;
+}
+.footer_copy {
+    color: #5c5c5c;
+    font-size: 12px;
+    line-height: 40px;
+}
+.footer_copy a {
+    text-decoration: none;
+}
